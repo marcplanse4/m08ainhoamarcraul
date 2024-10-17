@@ -1,10 +1,18 @@
+/**
+* Clase Producto
+*/
 class Producto {
+  /*
+  * Crea un constructor con 3 parámetros, de los cuáles son nombre, precio y cantidad.
+  * Para cada parámetro le añade el valor correspondiente, siempre señalando el objeto actual
+*/
   constructor(nombre, precio, cantidad) {
     this.nombre = nombre;
     this.precio = precio;
     this.cantidad = cantidad;
   }
 
+  /*Función que calcula el precio total, y devuelve el resultado de dicho cálculo*/
   calcularTotal() {
     return this.precio * this.cantidad;
   }
