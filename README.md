@@ -9,4 +9,3 @@ Este proyecto es un sistema simple de carrito de compras en JavaScript. Permite 
 - **Carrito**: Administra una lista de productos, con métodos para agregar productos, calcular el total y vaciar el carrito.
 
 - **Usuario**: Representa a un usuario con un carrito, permitiendo agregar productos y finalizar la compra.
-
